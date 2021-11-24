@@ -4,12 +4,33 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://col-css.netlify.app/css/column.css">
-  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+  <title>Slider-js</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="slider">
+    <div id="slider__item" class="slider__item" style="transform: translateX(0);">
+      <div class="slider__contents">
+        <img class="slider__img" src="img/slider-img1.jpg" alt="slider-img">
+      </div>
+    </div>
+    <div id="slider__item" class="slider__item" style="transform: translateX(0);">
+      <div class="slider__contents">
+        <img class="slider__img" src="img/slider-img2.jpg" alt="slider-img">
+      </div>
+    </div>
+    <div id="slider__item" class="slider__item" style="transform: translateX(0);">
+      <div class="slider__contents">
+        <img class="slider__img" src="img/slider-img3.jpg" alt="slider-img">
+      </div>
+    </div>
+    <div class="slider__btns">
+      <button class="slider__btn slider__btn--left" onclick="previousSlider()"><i class="bi bi-arrow-left"></i></button>
+      <button class="slider__btn slider__btn--right" onclick="nextSlider()"><i class="bi bi-arrow-right"></i></button>
+    </div>
+  </div>
   
+  <script src="js/main.js"></script>
 </body>
 </html>
