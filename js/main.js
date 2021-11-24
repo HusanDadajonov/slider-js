@@ -7,8 +7,8 @@ function nextSlider(){
             break;
         } 
         else if(elSliderItem[i - 1]){
-           elSliderItem[i - 1].style.transform = "translateX(0px)";
-           elSliderItem[i].style.transform = "translateX(0px)";
+            elSliderItem[i].style.transform = "translateX(0px)";
+            elSliderItem[i - 1].style.transform = "translateX(0px)";
         }
     } 
 }
@@ -20,9 +20,5 @@ function previousSlider(){
             elSliderItem[i].style.transform = "translateX(0)";
             break;
         }
-        else if(elSliderItem[i - 1]){
-            elSliderItem[i - 1].style.transform = "translateX(0px)";
-            elSliderItem[i].style.transform = "translateX(0px)";
-         }
     }
 }
