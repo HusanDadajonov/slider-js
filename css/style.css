@@ -105,3 +105,52 @@ img {
 .slider__btn:hover{
   opacity: 0.8;
 }
+
+
+@media screen and (max-width:1300px){
+  .slider{
+    width: 900px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width:992px){
+  .slider{
+    width: 700px;
+    height: 300px;
+  }
+  .slider__btn{
+    width: 30px;
+    height: 30px;
+    font-size: 17px;
+  }
+
+  .slider__btn i{
+    width: 17px;
+    height: 17px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .slider{
+    width: 500px;
+  }
+}
+
+@media screen and (max-width:576px){
+  .slider{
+    width: 300px;
+  }
+  .slider__item{
+    transition: all 0.4s ease;
+  }
+}
+
+@media screen and (max-width:330px){
+  .slider{
+    width: 200px;
+  }
+  .slider__btns{
+    width: 130px;
+  }
+}
