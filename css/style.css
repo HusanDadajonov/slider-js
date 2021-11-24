@@ -170,6 +170,7 @@ img {
 @media screen and (max-width:576px){
   .slider{
     width: 300px;
+    height: 600px;
   }
   .slider__item{
     transition: all 0.4s ease;
@@ -177,6 +178,10 @@ img {
 
   .slider__desc{
     font-size: 18px;
+  }
+
+  .slider__btns{
+    transform: translate(-50%,-150%);
   }
 }
 
